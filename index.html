@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar Menu | Benoit Marie</title>
+    <!-- Lien Google fonts pour Icone -->
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="site-nav">
+        <button class="sidebar-masquer">
+            <span class="material-symbols-rounded"> menu </span>
+        </button>
+    </nav>
+    <aside class="sidebar">
+    <!-- Sidebar Header-->
+        <header class="sidebar-header">
+            <img src="logo.png" alt="LogoPage" class="header-logo">
+        <button class="sidebar-masquer">
+            <span class="material-symbols-rounded"> chevron_left </span>
+        </button>
+        </header>
+        <div class="sidebar-content">
+            <!-- Formulaire de recherche -->
+             <form action="#" class="search-form">
+                <span class="material-symbols-rounded"> search </span>
+                <input type="search" placeholder="Rechercher..." required>
+            </form>
+            
+            <!-- List Menu -->
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="" class="menu-link active">
+                        <span class="material-symbols-rounded"> dashboard </span>
+                        <span class="menu-label">Dashboard</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="material-symbols-rounded"> insert_chart </span>
+                        <span class="menu-label">Statistique</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="material-symbols-rounded"> notifications </span>
+                        <span class="menu-label">Notification</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="material-symbols-rounded"> star </span>
+                        <span class="menu-label">Favoris</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="material-symbols-rounded"> storefront </span>
+                        <span class="menu-label">Produits</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="material-symbols-rounded"> group </span>
+                        <span class="menu-label">Clients</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="" class="menu-link">
+                        <span class="material-symbols-rounded"> settings </span>
+                        <span class="menu-label">Paramètres</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Sidebar Footer -->
+        <div class="sidebar-footer">
+            <button class="theme-masquer">
+                <div class="theme-label">
+                    <span class="theme-icon 
+                    material-symbols-rounded"> dark_mode </span>
+                    <span class="theme-text">Dark Mode</span>
+                </div>
+                <div class="theme-track-masquer">
+                <div class="theme-indication-masquer"></div>
+                </div>
+            </button>
+        </div>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>
